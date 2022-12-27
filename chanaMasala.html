@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name = "viewport" content="initial-scale=1, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Chickpea Curry</title>
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Joseph's Recipe Book</a>
+            </div>
+        </nav>
+        <header>
+            <br>
+            <h1>Chana Masala (Chickpea Curry)</h1>
+        </header>
+        <main>
+            <p>Info</p>
+            <p>Note - You should have all of the ingredients measured and ready before you begin cooking.</p>
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>1 Onion, chopped small</li>
+                <li>3 Cloves Garlic, minced</li>
+                <li>1 Chilli Pepper (Serano or whatever is available), chopped small</li>
+                <li>1.5~2 inches of Ginger, peeled and minced</li>
+                <li>2 cans Chickpeas, drained</li>
+                <li>1 small can Tomato Puree or Paste</li>
+                <li>1 can Coconut Milk</li>
+                <li>1 tablespoon Coconut Flour (optional)</li>
+            </ul>
+            <h5>Spices:</h5>
+            <ul>
+                <li>1 teaspoon Ground Tumeric</li>
+                <li>1 teaspoon Mustard Seeds</li>
+                <li>1 teaspoon Ground Coriander</li>
+                <li>1 teaspoon Ground Cumin</li>
+                <li>4 Curry Leaves</li>
+                <li>1 teaspoon Ground Fenugreek</li>
+                <li>Salt to taste</li>
+            </ul>
+            <h5>For the Rice:</h5>
+            <ul>
+                <li>1 cup Basmati Rice</li>
+                <li>2 cups Water</li>
+                <li>1/2 teaspoon Ground Tumeric</li>
+                <li>1 stick Cinnamon</li>
+            </ul>
+            <h2>Steps:</h2>
+            <ol>
+                <li>If using whole spices, lightly toast the fenugreek and mustard seeds until fragrant.</li>
+                <li>If using whole spices, grind the toasted fenugreek and mustard seeds using a mortar and pestle.</li>
+                <li>Add the oil to a large pan. When the oil is heated, add the onions, garlic, chilli, and ginger. Sautee the onions for 10 minutes,
+                stirring often. (Try our <button onclick="openTimer()">Timer</button>)</li>
+                <li>Add the spices. Stir them in and cook for another 3-4 minutes, stirring often.</li>
+                <li>Add the tomato paste and cook for another minute or two, stirring often.</li>
+                <li>Add the chickpeas, stirring them in.</li>
+                <li>Add the coconut milk. Stir and heat until simmering. Simmer for 12 minutes.</li>
+                <li>Add all of the ingredients for the rice to a saucepan. Cover and put on low heat to cook until the liquid is all absorbed. About
+                12 minutes.</li>
+                <li>(Optional) Before serving the curry, add the coconut flour.</li>
+            </ol>
+            <br>
+        </main>
+        <footer>
+            Recipe adapted from: <a href="https://www.avantgardevegan.com/recipes/chickpea-curry/">Gaz Oakley's Avant Garde Vegan</a>
+        </footer>
+        <script>
+            function openTimer() {
+                var popupWidth = 330;
+                var leftPos = screen.width - popupWidth;
+                window.open('timer.html', '_blank', 'toolbar=no, scrollbars=yes, resizable=no, width=' + popupWidth + ', height=170, top=0, left=' + leftPos);
+            }
+        </script>
+    </body>
+</html>
